@@ -1,0 +1,78 @@
+unit UnitRelogio;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus, Vcl.StdCtrls,
+  Vcl.Mask;
+
+type
+  TFormRelogio = class(TForm)
+    PTop: TPanel;
+    Panel2: TPanel;
+    LbContador: TLabel;
+    MainMenu1: TMainMenu;
+    MRelgio: TMenuItem;
+    MCronometro1: TMenuItem;
+    MTemporizador1: TMenuItem;
+    MSair: TMenuItem;
+    MaskEdtContador: TMaskEdit;
+    BtnEditar: TButton;
+    Button2: TButton;
+    BtnCancelar: TButton;
+    Timer1: TTimer;
+    procedure MSairClick(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+    procedure BtnEditarClick(Sender: TObject);
+    procedure MCronometro1Click(Sender: TObject);
+    procedure MTemporizador1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormRelogio: TFormRelogio;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormRelogio.BtnEditarClick(Sender: TObject);
+begin
+
+ LbContador.Visible := False;
+ MaskEdtContador.Visible := True;
+
+end;
+
+procedure TFormRelogio.MCronometro1Click(Sender: TObject);
+begin
+     PTop.Visible := True;
+end;
+
+procedure TFormRelogio.MSairClick(Sender: TObject);
+begin
+ FreeAndNil(FormRelogio);
+ end;
+
+procedure TFormRelogio.MTemporizador1Click(Sender: TObject);
+begin
+ PTop.Visible := True;
+end;
+
+procedure TFormRelogio.Timer1Timer(Sender: TObject);
+begin
+ LbContador.Caption := TimeToStr(Now);
+end;
+
+
+{ criar função de manuseio de abertura
+   clica em temporizador ou cronometro
+
+
+}
+
+end.

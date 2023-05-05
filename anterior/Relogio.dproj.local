@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/20 08:49:40.000.163,=C:\Users\DESENV\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/20 08:53:55.000.276,=C:\Users\DESENV\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/20 08:58:51.000.025,C:\Users\DESENV\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Dev\Relogio\Unit_Relogio.dfm</Transaction>
+    <Transaction>2023/03/20 08:58:51.000.025,C:\Users\DESENV\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Dev\Relogio\Unit_Relogio.pas</Transaction>
+    <Transaction>2023/03/20 08:59:01.000.131,C:\Users\DESENV\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Dev\Relogio\Relogio.dproj</Transaction>
+    <Transaction>2023/03/20 08:59:03.000.209,=C:\Dev\Relogio\ModelSupport_Relogio\default.txaPackage</Transaction>
+    <Transaction>2023/03/20 08:59:33.000.784,C:\Dev\Relogio\Relogio.dproj=C:\Dev\Relogio\Relogio.dproj</Transaction>
+    <Transaction>2023/03/20 08:59:34.000.128,=C:\Dev\Relogio\ModelSupport_Relogio\Relogio\default.txaPackage</Transaction>
+    <Transaction>2023/03/20 08:59:34.000.083,=C:\Dev\Relogio\ModelSupport_Relogio\default.txvpck</Transaction>
+    <Transaction>2023/03/20 08:59:34.000.145,=C:\Dev\Relogio\ModelSupport_Relogio\Unit_Relogio\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>
